@@ -1,0 +1,241 @@
+body {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    src: url(../font/Century\ Gothic.ttf);
+    background-image: url("../bg.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p#titulo {
+    font-size: 25px;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(3, 57, 73);
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #033949 0%, #e8eff1 85%, rgba(137, 220, 36, 0) 100%);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#main-title {
+    padding-left: 25px;
+    padding-top: 20;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+img#logo {
+    width: 120px;
+    float: right;
+    margin-top: -100;
+    padding-right: 30px;
+    z-index: 1;
+    filter: drop-shadow(2px 2px 25px #090909);
+}
+
+img#header {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    float: right;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+p#texto {
+    word-wrap: break-word;
+    width: 850px;
+    padding-left: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-shadow: 0px 0.3px;
+}
+
+h1#main-title {
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+div#menu {
+    position: relative;
+    padding-right: 45px;
+    padding-left: 45px;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    float: left;
+}
+
+div#menu a:hover {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    background-color: rgb(134, 184, 113);
+    border-color: rgb(134, 184, 113);
+    outline-style: solid;
+    outline-color: rgb(134, 184, 113);
+}
+
+#a1 {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-color: rgb(106, 168, 79);
+    background-color: rgb(106, 168, 79);
+    outline-style: solid;
+    outline-color: rgb(106, 168, 79);
+    box-shadow: 5px 5px 5px rgb(3, 57, 73);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#a2 {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-color: rgb(3, 57, 73);
+    background-color: rgb(3, 57, 73);
+    outline-style: solid;
+    outline-color: rgb(3, 57, 73);
+    box-shadow: 5px 5px 5px rgb(3, 57, 73);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+p#bottominfo {
+    color: white;
+    background: linear-gradient(90deg, #033949 0%, #033949 35%, #8adc24 100%);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    float: none;
+    text-shadow: 1px 1px 2px rgb(2, 36, 46);
+    text-transform: uppercase;
+}
+
+#ul {
+    width: 850px;
+    font-size: 20px;
+}
+
+li#lista1 {
+    margin: 25px;
+    width: 850px;
+    font-size: 20px;
+}
+
+li#lista2 {
+    margin: 25px;
+    width: 850px;
+    font-size: 20px;
+    list-style: lower-alpha;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    background: rgb(3, 57, 73);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+th {
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgb(3, 57, 73);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+td {
+    font-size: 20px;
+    border: 1px solid rgb(58, 136, 180);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: white;
+}
+
+dt {
+    margin: 15px;
+    font-size: 20px;
+    text-shadow: 0px 0.3px;
+}
+
+#tablaheader {
+    background: linear-gradient(90deg, #235666 0%, #3e6b79 35%, #56acbb 100%);
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+}
+
+#fname {
+    width: 150px;
+}
+
+#lname {
+    width: 417px;
+}
+
+#address {
+    width: 728px;
+}
+
+#city {
+    width: 250px;
+}
+
+#postalcode {
+    width: 371px;
+}
+
+#birthdate {
+    width: 274px;
+}
+
+#sign {
+    width: 327px
+}
+
+#date {
+    width: 276;
+}
+
+.infotext {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#formulario {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: rgba(255, 255, 255, 0.555);
+    z-index: -1;
+    width: 950px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+label#q1 {
+    -webkit-text-stroke: 0.7px;
+}
+
+#radio {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.mapa {
+    margin-right: auto;
+    padding-left: 18px;
+}
